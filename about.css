@@ -1,0 +1,114 @@
+
+
+#im {
+
+  font-size: 125px;
+  margin-top: 50px;
+
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 50px;
+  top: 250px;
+  color:#fff;
+
+  animation-name: im;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes im{
+  0% {font-size: 0px;
+  right: 0px;}
+  95% {font-size: 125px;
+        right: 500px;
+        color: black;}
+  100%{color:#fff;}
+}
+
+#a{
+  font-size: 125px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 340px;
+  top: 320px;
+  color: #fff;
+
+  animation-name: a;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+
+@keyframes a{
+  0% {color: #fff;}
+  95% {color: black;}
+  100% {color: #fff;}
+}
+
+#piece{
+  font-size: 130px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 500px;
+  top: 180px;
+  color:#fff;
+
+  animation-name: piece;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 1.5s;
+
+}
+
+@keyframes piece{
+  0% {color: #fff;}
+  95% {color: black;}
+  100% {color: #fff;}
+}
+
+#of{
+  font-size: 130px;
+  position: fixed;
+  left: 1000px;
+  top: 430px;
+  color:#fff;
+
+  animation-name: piece;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+
+#garbage {
+  font-size: 130px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 490px;
+  top: 180px;
+  opacity: 0;
+
+  animation-name: garbage;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+
+@keyframes garbage {
+  0% {opacity: 0;
+      left: 490px;}
+  10% {left: 510px;}
+  20% {left: 490px;}
+  30%{left: 510px;}
+  40%{left: 490px;}
+  50%{left: 510px;}
+  60%{left: 490px;}
+  70%{left: 510px;}
+  80%{left: 490px;}
+  90%{left: 510px;}
+  100% {opacity: 100;
+        left: 490px;}
+}

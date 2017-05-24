@@ -1,0 +1,40 @@
+header {
+  font-size: 50px;
+  margin-top: 70px;
+  margin-left: 125px;
+  transition: 0.5s;
+  display: inline-block;
+}
+
+sub{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.menu{
+  font-size: 16px;
+  margin: 100px;
+}
+
+.text {
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+
+a:hover{
+  font-size: 25px;
+  transition: 0.5s;
+}
+
+a.headerlink:hover{
+  font-size:60px;
+  transition: 0.5s;
+}
