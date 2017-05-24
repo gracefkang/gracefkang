@@ -27,7 +27,7 @@
 }
 
 #a{
-  font-size: 125px;
+  font-size: 90px;
   width: 100%;
   height: 100%;
   position: fixed;
@@ -70,10 +70,10 @@
 }
 
 #of{
-  font-size: 130px;
+  font-size: 100px;
   position: fixed;
   left: 1000px;
-  top: 430px;
+  top: 400px;
   color:#fff;
 
   animation-name: piece;
@@ -92,23 +92,18 @@
   opacity: 0;
 
   animation-name: garbage;
-  animation-duration: 1s;
+  animation-duration: 5s;
   animation-fill-mode: forwards;
   animation-delay: 3s;
 }
 
 @keyframes garbage {
   0% {opacity: 0;
-      left: 490px;}
-  10% {left: 510px;}
-  20% {left: 490px;}
-  30%{left: 510px;}
-  40%{left: 490px;}
-  50%{left: 510px;}
-  60%{left: 490px;}
-  70%{left: 510px;}
-  80%{left: 490px;}
-  90%{left: 510px;}
+      left: 490px;
+    color: #fff;
+  font-size: 130px;}
   100% {opacity: 100;
-        left: 490px;}
+        left: 490px;
+      color: black;
+    font-size: 200px;}
 }
