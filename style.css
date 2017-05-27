@@ -3,6 +3,17 @@ header {
   margin-top: 75px;
   margin-left: 125px;
   transition: 0.5s;
+  text-decoration: none;
+  color: black;
+}
+
+#linko{
+  text-decoration: none;
+}
+
+#linko:visited {
+  text-decoration: none;
+  color: black;
 }
 
 sub{
@@ -22,7 +33,7 @@ sub{
   text-align: center;
 }
 
-a{
+#linky{
   text-decoration: none;
   color: black;
   transition: 0.5s;
@@ -33,7 +44,7 @@ a:hover{
   transition: 0.5s;
 }
 
-a.headerlink:hover{
+#linko:hover{
   font-size: 50px;
   color: #C70039;
   transition: 0.5s;
