@@ -39,6 +39,11 @@ sub{
   transition: 0.5s;
 }
 
+a{
+  text-decoration: none;
+  color: black;
+}
+
 a:hover{
   font-size: 25px;
   transition: 0.5s;
