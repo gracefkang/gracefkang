@@ -3,13 +3,12 @@ header {
   margin-top: 75px;
   margin-left: 125px;
   transition: 0.5s;
-  display: inline;
 }
 
 sub{
-  display: inline;
-  vertical-align: middle;
-  margin-left: 10px;
+  position: fixed;
+  left: 360px;
+  top: 100px;
   font-size: 15px;
   text-decoration: none;
 }
