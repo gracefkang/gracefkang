@@ -1,0 +1,84 @@
+#body{
+/*   text-align: center; */
+  width: 460px;
+  margin: 0 auto;
+}
+#list{
+/*   width: 400px; */
+}
+
+.infor{
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 100px;
+  text-align:right;
+}
+button{
+  display: inline-block;
+  margin: 0 5px;
+  padding: 2px 15px;
+  font-size: 18px;
+  font-family: sans-serif;
+  line-height: 1.6;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 16px;
+  background: #00aced;
+  border: none;
+  color: #fff;
+}
+
+button:focus{
+  outline: none;
+}
+blockquote.twitter-tweet {
+  width: 100%;
+  display: inline-block;
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 16px;
+  border-color: #eee #ddd #bbb;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 0.25px;
+  box-shadow: none;
+  margin: 10px 5px;
+  padding: 0 16px 16px 16px;
+  max-width: 468px;
+}
+
+blockquote.twitter-tweet p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+  margin-left: 80px;
+}
+
+blockquote.twitter-tweet a {
+  color: inherit;
+  font-weight: normal;
+  text-decoration: none;
+  outline: 0 none;
+}
+
+blockquote.twitter-tweet a:hover,
+blockquote.twitter-tweet a:focus {
+  text-decoration: underline;
+}
+
+p#paragraph{
+  text-align: center;
+}
+
+.img {
+ float: left;
+ margin: 12px 0 0 0;
+ background: url('https://68.media.tumblr.com/avatar_11889d5a1496_64.png')
+  no-repeat
+    left center;
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+}
